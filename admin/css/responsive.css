@@ -1,0 +1,17 @@
+@media only screen and (max-width: 768px){
+	td a button{
+		margin-bottom: 5%;
+	}
+}
+@media only screen and (max-width: 580px){
+	.admin-header h2{
+		font-size: 1.4rem!important;
+		margin-top: 5%;
+	}
+	.admin-header .profile{
+		width: 25%;
+	}
+	.admin-header .profile h3{
+		font-size: .7rem!important;
+	}
+}

@@ -1,0 +1,62 @@
+@media only screen and (max-width: 768px){
+	.name-title h1,
+	.name-title h2{
+		font-size: .8rem;
+	}
+	.name-title{
+		margin-top: .5%;
+	}
+	.top-gov h5{
+		font-size: .8rem;
+	}
+	div .principle-about .wraper h3,
+	div .principle-about .wraper p,
+	.msg-wraper h5{
+		margin: 0 .8%;
+	}
+	.msg-wraper img{
+		width: 30%;
+		margin: 2% 0;
+	}
+	#principlePhoto{
+		text-align: center;
+	}
+	.side-padding-notice{
+		margin-left: 2.5%!important;
+	}
+	.single-date-wraper{
+		display: inline-block;
+	}
+	.notice-wraper .col-md-4{
+		width: 23%;
+		float: left;
+
+	}
+	.notice-wraper .col-md-8{
+		width: 75%;
+		float: left;
+	}
+	.single-title-notice h2 {
+    	padding-top: 0px;
+	}
+	.hero-slider img{
+		height:17rem ;
+	}
+	.all-post{
+		height: 550px!important;
+	}
+	div.single-blog .col-md-3{
+		height: 200px!important;
+	}
+	.single-blog p{
+		margin: 1% 2%;
+	}
+}
+@media only screen and (max-width: 580px){
+	.hero-slider img{
+		height:200px ;
+	}
+	.name-title h2{
+		display: none;
+	}
+}

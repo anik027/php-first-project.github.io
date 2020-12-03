@@ -1,0 +1,243 @@
+body{
+	background:#03596217;
+}
+.dropdown-item:focus, 
+.dropdown-item:hover {
+    background-color: #2966a3!important;
+}
+.top-gov{
+	background: #035762;
+	margin: auto;
+	text-align: center;
+}
+.nav-bg{
+	background: #035762;
+	border-bottom: 5px solid yellow;
+}
+.name-title{
+	margin-top: 30px;
+	display: inline-block;
+	width: 68%;
+}
+
+.name-title h1{
+	color: white;
+	text-align: center;
+	line-height: 1.8;
+	font-size:26px;
+	font-weight: bold;
+}
+.name-title h2{
+	color:white;
+	text-align: center;
+	font-size: 18px;
+	font-weight: 400;
+}
+.logo-title-bg{
+	background: linear-gradient(#00000075,#00000075), url(../image/gate.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center 92%;
+}
+.hero-image{
+	box-shadow: 1px 1px 10px 2px #00000085;	
+}
+.principle-content-wraper{
+	margin: 10px 0px;
+	box-shadow: 1px 1px 10px 2px #00000085;	
+	margin-bottom: 30px;
+}
+.principle-about .wraper{
+	border-top:5px solid #2196F3;
+}
+.principle-about .wraper h3{
+	font-size: 20px;
+    color: #673AB7;
+    margin-top: 5px;
+}
+.principle-about .wraper p{
+	text-align: justify;
+	font-weight: 400;
+}
+.principle-about .msg-wraper{
+	background: #E6F0FA;
+	border-radius: 5px;
+}
+.principle-about .msg-wraper{
+	font-size: 15px;
+}
+.home-notice{
+	background: yellowgreen;
+    color: brown;
+}
+.side-padding-notice{
+	background:yellowgreen;
+}
+
+.single-date-wraper {
+    background: blue;
+    border-radius: 5px;
+    padding: 5px;
+}
+.single-date-wraper span{
+	color: #fff;
+	font-size: 13px;
+}
+.single-title-notice h2{
+	font-size: 17px;
+	padding-top: 10px;
+}
+footer{
+	background: #026B6A;
+}
+.footer-single-row{
+	padding-top: 15px;
+}
+.footer-single-row h2{
+	color: #ccc;
+	font-size: 25px;
+
+}
+.footer-single-row h2::after{
+	 content: "";
+	 display: inline-block;
+	 background: #ccc;
+	 width: 100%;
+	 height:3px;
+	 border-radius: 2px;
+}
+.footer-single-row ul {
+	padding-left: 10px;
+}
+.footer-single-row ul li{
+	list-style: none;
+	padding: 10px 0px
+}
+.footer-single-row ul li a{
+	font-size: 15px;
+	color: #fff;
+	text-decoration: none;
+
+}
+.footer-single-row ul li a:hover{
+	text-decoration: underline;
+	color: red;
+}
+.footer-bottom{
+	padding: 20px 0px;
+	background:#035762;
+}
+.footer-bottom span{
+	line-height: 1.8;
+	display: block;
+	color:#fff;
+	font-size: 18px;
+	font-weight: 600;
+}
+.program-title{
+	background:#035762;
+	border-top: 8px solid yellow;
+}
+.program-title h4{
+	color:#fff;
+	font-size: 20px;
+	padding: 10px;
+	text-align:center;
+}
+.program ul{
+	padding-left: 0;
+}
+.program ul li{
+	list-style: none;
+	margin: 10px 0;
+	padding:10px 0px 10px 14px;
+	border-left: 8px solid #035762;
+	background: #C5D8DB;
+}
+.program ul li a{
+	font-size: 18px;
+	color:#000;
+}
+.single-program-box ul{
+	height: 207px;
+	overflow: auto;
+}
+.single-blog{
+	background: #C5D8DB;
+	padding: 10px;
+	margin: 10px 0;
+	width: 99%;
+	border-radius: 5px;
+	margin-left: 4px;
+}	
+.single-blog .title{
+	margin-top: 10px;
+	margin-left: 5px;
+}
+.contact-section{
+	background: linear-gradient(#00000090,#00000090),
+   				url(../image/bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+}
+.contact-section label{
+	color:white;
+}
+.contact-section .container{
+	background: #2424247a;
+	padding: 0;
+	margin: 0 auto;
+}
+.footer-bottom{
+	border-top: 2px solid yellow;
+}
+.single-blog .title a h2{
+	
+	font-style: italic;
+	color: #0052eb;
+}
+.single-blog .title a{
+	text-decoration: none;
+}
+
+.single-blog .title a h2:hover{
+	color:#11264f;
+	transition: .5s
+	
+}
+.blog-categories .title h4{
+	font-size: 25px;
+	color:#746b6b;
+	border-bottom: 2px solid #746b6b;
+	line-height: 2;
+}
+.blog-categories .categories ul li{
+	list-style: none;
+	padding: 5px 0px;
+}
+.blog-categories .categories ul li a{
+	font-size: 20px;
+	color:#555454;
+	font-weight: bold;
+	text-decoration: none;
+}
+.blog-categories .categories ul li a:hover{
+	color:#0853a3;
+}
+.gov-logo{
+	float: left;
+	display: inline-block;
+	width: 15%;
+}
+.rgov-logo{
+	float: right;
+	display: inline-block;
+	width: 15%;
+}
+.rgov-logo img,
+.gov-logo img{
+	width: 100%;
+}
+
